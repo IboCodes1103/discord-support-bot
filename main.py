@@ -23,23 +23,19 @@ from knowledge_search import detect_smalltalk, search_knowledge
 from ticket_actions import ResolvedTicketView
 
 
-# Load the configuration from the local .env file.
 load_dotenv()
 token = os.getenv("DISCORD_TOKEN")
 
 if not token:
     raise ValueError("Discord token not found. Check your .env file.")
 
-# Locate the project files.
 project_path = Path(__file__).parent
 knowledge_path = project_path / "knowledge.json"
 database_path = project_path / "handoffs.sqlite3"
 
-# Load the knowledge base.
 with knowledge_path.open("r", encoding="utf-8") as file:
     knowledge_base = json.load(file)
 
-# Create the database table if it does not exist yet.
 with sqlite3.connect(database_path) as connection:
     connection.execute(
         """
@@ -49,20 +45,16 @@ with sqlite3.connect(database_path) as connection:
         """
     )
 
-# Create the feedback tables if they do not exist yet.
 setup_feedback_tables()
 
-# Create the Discord client and command tree.
 intents = discord.Intents.default()
 intents.message_content = True
 
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
 
-# Keep the feedback buttons working after the bot restarts.
 client.add_dynamic_items(FeedbackButton)
 
-# Track tickets that are waiting for an AI response.
 busy_channels = set()
 
 # Define the embed colors.
