@@ -65,7 +65,7 @@ Requirements: Python 3.10 or newer (developed with 3.15.2), a Discord applicatio
 
 2. **Create the Discord bot.** In the Discord Developer Portal, create a bot, copy its token and enable the **Message Content Intent**. Invite it with the scopes `bot` and `applications.commands`. It needs these permissions: View Channels, Send Messages, Embed Links, Read Message History, and Mention Roles (or the support role must be mentionable).
 
-3. **Configure Ticket Tool.** The bot reads the Ticket Tool welcome message to find out who opened a ticket. Ticket Tool must also accept commands sent by other bots, because the bot sends `$close`, `$transcript` and `$delete`.
+3. **Configure Ticket Tool. (if you want to use Ticket Tool)** The bot reads the Ticket Tool welcome message to find out who opened a ticket. Ticket Tool must also accept commands sent by other bots, because the bot sends `$close`, `$transcript` and `$delete`.
 
 4. **Create the configuration.** Copy `.env.example` to `.env` and fill in your values:
 
@@ -137,4 +137,4 @@ Use a private test server, a throwaway ticket and invented questions. Use one ac
 
 ## Knowledge base
 
-The entries in `knowledge.json` are based on the public pages of [azubiverse.com](https://azubiverse.com). Each entry contains a `source` URL. Content on a website can change, so entries should be checked again from time to time. Offers and prices on the source site are provided by third parties and can be outdated.
+The entries in `knowledge.json` are based on the public pages of [azubiverse.com](https://azubiverse.com).
