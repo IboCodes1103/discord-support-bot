@@ -1,0 +1,29 @@
+# Secrets and credentials
+.env
+
+# Local Python environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Local ticket handoff state
+*.sqlite3
+
+# Local backups of earlier versions
+*_before_*.py
+*_before_*.json
+
+# Local one-time helper scripts and experiments (kept on this computer only)
+apply_embed_theme.py
+cleanup_global_commands.py
+enable_ticket_buttons.py
+switch_to_groq.py
+update_faq_search.py
+update_staff_and_faq.py
+test_groq.py
+test_local_ai.py
+test_rag.py
+test_ticket_close.py
+test_ticket_tool.py

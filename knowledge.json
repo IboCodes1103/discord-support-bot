@@ -1,0 +1,159 @@
+[
+  {
+    "keywords": [
+      "free", "cost", "costs", "price", "subscription", "advertising",
+      "ads", "ad-free", "fee", "fees", "pay", "paid", "kostenlos",
+      "kosten", "werbung"
+    ],
+    "answer": "AzubiVerse is free to use. Its calculators, overviews, guides, and exam tools do not require payment or a subscription. The platform is ad-free, and you do not need to register to use its tools.",
+    "source": "https://azubiverse.com"
+  },
+  {
+    "keywords": [
+      "reliable", "reliability", "accurate", "accuracy", "grade calculator",
+      "grade", "grades", "trust", "guarantee", "binding", "notenrechner",
+      "calculate grade", "exam result", "exam results"
+    ],
+    "answer": "According to AzubiVerse, the grade calculator uses official examination regulations and links to the relevant legal sources and their reference dates. Its results are intended as guidance and are provided without guarantee. The official certificate issued by your responsible chamber is legally binding. The calculation runs only in your browser and nothing is saved. AzubiVerse describes the calculator for Büromanagement, Verkäufer/-in, MFA and Kfz-Mechatronik. For Büromanagement the weightings are: GAP Teil 1 (25 %), GAP Teil 2 Kundenbeziehungsprozesse (35 %), WISO (10 %) and the oral Fachaufgabe in the Wahlqualifikation (30 %). More information: https://azubiverse.com/notenrechner",
+    "source": "https://azubiverse.com/notenrechner"
+  },
+  {
+    "keywords": [
+      "salary", "wage", "gross", "net", "take home", "gehaltsrechner",
+      "netto", "brutto", "salary calculator", "income tax", "tax class"
+    ],
+    "answer": "AzubiVerse offers a salary calculator that shows how much of your gross training pay is left as net pay. You enter your monthly gross pay, your age (under 23 or 23 and older), your tax class and your federal state. It assumes you have no children, so a surcharge for childless people applies from age 23. The values are estimates without guarantee: the income tax is a simplified approximation and the health insurance supplementary contribution is a flat rate. Your payslip is what counts. The calculation runs only in your browser and nothing is saved: https://azubiverse.com/gehaltsrechner",
+    "source": "https://azubiverse.com/gehaltsrechner"
+  },
+  {
+    "keywords": [
+      "bab", "wohngeld", "housing benefit", "financial support",
+      "financial aid", "berufsausbildungsbeihilfe", "training allowance"
+    ],
+    "answer": "The salary calculator page of AzubiVerse includes a quick check for BAB (Berufsausbildungsbeihilfe). It asks how you live (with your parents, alone or in a shared flat), how far your employer is from your parents' home and your estimated net pay, and gives an orientation, not an official decision. AzubiVerse notes that distance alone does not create an entitlement, and that housing benefit (Wohngeld) is usually excluded if you are generally entitled to BAB. The requirements are checked by the Agentur für Arbeit. AzubiVerse also has a Wissenskiste article on this topic: https://azubiverse.com/wissenskiste/bab-wohngeld",
+    "source": "https://azubiverse.com/gehaltsrechner"
+  },
+  {
+    "keywords": [
+      "career test", "berufstest", "which apprenticeship",
+      "which training", "suits", "interests", "personality"
+    ],
+    "answer": "AzubiVerse has a career test (Berufstest) for pupils and people who are interested in an apprenticeship. It takes about 3 to 5 minutes, is free, needs no account and runs in your browser. It uses a matching system with 25 of the most popular training occupations in Germany, and more are being added step by step. The occupation profiles are editorial assessments by AzubiVerse, not scientifically validated values. Your answers stay in your browser and are neither stored nor transmitted: https://azubiverse.com/berufstest",
+    "source": "https://azubiverse.com/berufstest"
+  },
+  {
+    "keywords": [
+      "occupation missing", "profession missing", "missing occupation",
+      "missing profession", "find occupation", "find profession",
+      "occupation available", "profession available", "suggest occupation",
+      "suggest profession", "partially verified", "ausbildungsberuf"
+    ],
+    "answer": "According to AzubiVerse, occupations are added after their examination weightings and passing requirements have been checked. Partially verified means that core subjects have been checked, but some details still need final verification. If your occupation is missing, you can suggest it here: https://azubiverse.com/kontakt?grund=beruf-fehlt",
+    "source": "https://azubiverse.com"
+  },
+  {
+    "keywords": [
+      "official exam", "official exams", "exam question",
+      "real exam", "quizzes", "simulation", "from the chamber"
+    ],
+    "answer": "AzubiVerse's exam simulations, exercise booklets, and interactive exercises are independently created. They are not official examination questions and do not come from the chambers. They are intended for practice.",
+    "source": "https://azubiverse.com/pruefungsvorbereitung"
+  },
+  {
+    "keywords": [
+      "exam simulation", "practice exam", "exam preparation", "ap1", "ap2",
+      "wiso", "timer", "sample solution", "musterlösung", "exam booklet",
+      "prüfungssimulation", "fachinformatiker", "available exam",
+      "exam simulation available"
+    ],
+    "answer": "AzubiVerse offers free exam simulations with a timer. You do not need a login. Currently available are: an AP1 practice exam for Kaufmann/-frau für Büromanagement (120 minutes, 100 points, with exam booklet, table material and sample solution), an AP1 practice exam for IT occupations such as Fachinformatiker/-in (90 minutes, 100 points, with exam booklet and sample solution), and a WISO training quiz with 25 questions (45 minutes) for commercial occupations. They are AzubiVerse's own exercises and not official chamber exams: https://azubiverse.com/pruefungsvorbereitung",
+    "source": "https://azubiverse.com/pruefungsvorbereitung"
+  },
+  {
+    "keywords": [
+      "offers for apprentices", "available offers", "current offers",
+      "deals", "deal", "discount", "discounts", "apprentice discounts",
+      "student discount", "proof of eligibility", "spotify", "adobe",
+      "github", "perplexity", "notion", "rabatt", "angebote"
+    ],
+    "answer": "AzubiVerse lists offers and software discounts intended for apprentices. The proof required for an offer, such as an apprentice ID or school certificate, is listed on the individual offer card. Check the provider's current conditions before using an offer. Offers on the page include Google AI Pro (Gemini), TryFreeScan, Perplexity Education Pro, the GitHub Student Developer Pack, Spotify Premium Student, Adobe Creative Cloud Pro and Notion Plus. AzubiVerse does not guarantee that the information is up to date: https://azubiverse.com/angebote",
+    "source": "https://azubiverse.com/angebote"
+  },
+  {
+    "keywords": [
+      "discount without uni mail", "uni mail", "edu mail", "berufsschulausweis",
+      "school id", "proof apprentice", "school certificate",
+      "apprentice id", "unidays", "student beans"
+    ],
+    "answer": "According to AzubiVerse, many discounts accept another proof instead of a university email. Choose 'school' or 'other proof' instead of 'university'. Proofs that are usually accepted are: a Berufsschule student ID with name, school and validity date, a current school certificate with date and stamp, or the training contract or registration confirmation (with pay, address and birth date blacked out). The name must match your account, and most discounts apply for one year. Rules differ by federal state and company: https://azubiverse.com/wissenskiste/rabatte-ohne-uni-mail",
+    "source": "https://azubiverse.com/wissenskiste/rabatte-ohne-uni-mail"
+  },
+  {
+    "keywords": [
+      "expired offer", "expired deal", "broken offer", "report an error",
+      "report a bug", "report a problem", "report error", "report bug",
+      "wrong information", "incorrect information", "offer expired",
+      "fehler melden", "angebot abgelaufen"
+    ],
+    "answer": "If an offer has expired or you find an error in a tool, you can report it using the contact form: https://azubiverse.com/kontakt?grund=angebot",
+    "source": "https://azubiverse.com/kontakt"
+  },
+  {
+    "keywords": [
+      "contact", "email", "e-mail", "contact form", "feedback", "reach team",
+      "kontakt", "get in touch", "write team"
+    ],
+    "answer": "You can contact the AzubiVerse team through the contact form at https://azubiverse.com/kontakt. You can choose between a question or general feedback, a missing occupation in the calculator, an expired or incorrect offer, or something else. The team's email address is kontakt@azubiverse.com. The page does not state a response time.",
+    "source": "https://azubiverse.com/kontakt"
+  },
+  {
+    "keywords": [
+      "who created", "who made", "who runs", "behind", "who built",
+      "private project", "passion project", "team", "founder", "creator"
+    ],
+    "answer": "AzubiVerse describes itself as a private passion project created by apprentices for apprentices. It is not an official website of the IHK or HWK. You can find more information here: https://azubiverse.com/ueber-uns",
+    "source": "https://azubiverse.com/ueber-uns"
+  },
+  {
+    "keywords": [
+      "official", "affiliated", "affiliation", "ihk", "hwk", "chamber",
+      "connected", "government", "authority"
+    ],
+    "answer": "AzubiVerse is an independent, private platform for apprentices. According to its legal notice, it has no business, organisational or legal connection to the chambers of industry and commerce (IHK), the chambers of crafts (HWK) or other examining public bodies. Binding decisions are made by the responsible chambers and authorities: https://azubiverse.com/impressum",
+    "source": "https://azubiverse.com/impressum"
+  },
+  {
+    "keywords": [
+      "discord", "community", "server", "tiktok", "instagram", "twitter",
+      "social", "follow", "social media"
+    ],
+    "answer": "AzubiVerse is on TikTok (@azubiverse), Instagram (@azubiverse) and X (@AzubiVerse). According to its About page, the team is also working on its own Discord community server for apprentices from all over Germany, which is announced as coming soon: https://azubiverse.com/ueber-uns",
+    "source": "https://azubiverse.com/ueber-uns"
+  },
+  {
+    "keywords": [
+      "privacy", "data", "tracking", "cookies", "cookie", "account",
+      "register", "registration", "login", "datenschutz", "gdpr", "dsgvo",
+      "personal data", "analytics"
+    ],
+    "answer": "According to AzubiVerse's privacy policy, there are no user accounts or registration. Inputs in the calculators, the career test, the WISO quiz and the exam timer are processed only in your browser and are not sent to AzubiVerse servers. AzubiVerse does not use analytics, advertising or tracking cookies, and it does not sell data. The website is hosted with Lovable and protected by Cloudflare, and server logs are kept for up to 14 days. Details: https://azubiverse.com/datenschutz",
+    "source": "https://azubiverse.com/datenschutz"
+  },
+  {
+    "keywords": [
+      "knowledge box", "wissenskiste", "guides", "articles", "articles about",
+      "sick", "absence", "tax return", "change company", "quit apprenticeship",
+      "wbs", "berichtsheft", "overtime", "takeover", "first salary"
+    ],
+    "answer": "AzubiVerse has a section called Wissenskiste with short guides for apprentices. The topics are: discounts without a university email, BAB and housing benefit, the training record book (Berichtsheft) and overtime, the Wohnberechtigungsschein (WBS), sick days and missed days, the tax return as an apprentice, changing or quitting your company, and being taken on after the apprenticeship including the first salary: https://azubiverse.com/wissenskiste",
+    "source": "https://azubiverse.com/wissenskiste"
+  },
+  {
+    "keywords": [
+      "language", "languages", "english", "german", "deutsch", "translate",
+      "translation"
+    ],
+    "answer": "The AzubiVerse website is currently in German: https://azubiverse.com",
+    "source": "https://azubiverse.com"
+  }
+]
