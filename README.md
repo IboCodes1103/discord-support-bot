@@ -1,16 +1,16 @@
-# Discord Support Bot
+# AI driven Discord Ticket Support Bot
 
-A modular Discord support bot built in Python that utilizes a local knowledge base to automatically answer community questions accurately.
+A  Discord support bot built in Python that utilizes a local knowledge base to automatically answer community questions accurately.
 
-The bot works inside support tickets created by [Ticket Tool](https://tickettool.xyz). It finds known questions in a user's message, answers them from a local FAQ, adds a clearly labelled experimental AI answer that is limited to the matched FAQ text, and hands over to the human support team when needed.
+The bot works inside support tickets created by Ticket Tool (as of now for testing, can be used globally).. It finds known questions in a user's message, answers them from a local FAQ, adds a clearly labelled experimental AI answer that is limited to the matched FAQ text, and hands over to the human support team when needed.
 
-> **Status:** learning and demonstration project. It is built and tested on a private Discord test server.
+> **Status:** learning and demonstration project. In Development... It is built and tested on a private Discord test server
 
 ## Features
 
 - **Questions anywhere in a message.** A local keyword search splits a message into sentences and checks each part. A question in the middle of a long, messy message is found. Up to 3 questions per message are answered.
 - **FAQ answer first.** Matching entries of `knowledge.json` are sent as the primary answer, with the source URL in the footer.
-- **Grounded AI answer.** The AI (Gemini or Groq) only receives the matched questions and the matched FAQ entries, never the whole message. It must answer from that text and say "I don't know" otherwise. In that case the bot points to the human support team.
+- **Grounded AI answer.** The AI (Gemini or Groq used as of now, as times passes OpenAI APIs are going to be included, which will have this entire system work much better) only receives the matched questions and the matched FAQ entries, never the whole message. It must answer from that text and say "I don't know" otherwise. In that case the bot points to the human support team.
 - **No match, no AI.** If nothing matches, the bot sends a fixed message and does not call the AI. Greetings and thanks get a short friendly reply.
 - **Human handover.** `/request-human` or the **Request human** button in the welcome message pings the support role and pauses automated replies in that ticket. Staff can resume with `/resume-bot`.
 - **Ticket closing.** The person who asked can press **Thanks, my question was answered** and confirm. The bot then sends the Ticket Tool commands `$close`, `$transcript` and `$delete` with a short pause between them.
@@ -53,7 +53,7 @@ knowledge_search.py   split into parts -> find questions -> match keywords
 
 ## Setup
 
-Requirements: Python 3.10 or newer (developed with 3.15.2), a Discord application with a bot, and a Ticket Tool setup on your server.
+Requirements: Python 3.10 or newer (developed with 3.15.2), a Discord application with a bot.
 
 1. **Create the environment** (Windows PowerShell):
 
@@ -80,7 +80,7 @@ Requirements: Python 3.10 or newer (developed with 3.15.2), a Discord applicatio
    | `TICKET_CATEGORY_ID` | Category that contains the tickets |
    | `STAFF_ROLE_ID` | Support team role (ignored by the bot, pinged for handover) |
    | `FEEDBACK_CHANNEL_ID` | Channel for star ratings |
-   | `TICKET_TOOL_BOT_ID` | Optional, defaults to the public Ticket Tool bot |
+   | `TICKET_TOOL_BOT_ID` | Optional, defaults to the public Ticket Tool bot that I used |
    | `AI_PROVIDER` | `gemini` or `groq` (default `groq`) |
    | `GEMINI_API_KEY` / `GROQ_API_KEY` | Key of the selected provider |
 
