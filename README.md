@@ -6,6 +6,10 @@ The bot works inside support tickets created by Ticket Tool (as of now for testi
 
 > **Status:** learning and demonstration project. In Development... It is built and tested on a private Discord test server
 
+![Demo of the support bot in a ticket](docs/demo.gif)
+
+The demo shows a greeting, a question hidden in the middle of a long message, and a message with three questions.
+
 ## Features
 
 - **Questions anywhere in a message.** A local keyword search splits a message into sentences and checks each part. A question in the middle of a long, messy message is found. Up to 3 questions per message are answered.
