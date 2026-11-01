@@ -8,7 +8,7 @@ The bot works inside support tickets created by Ticket Tool (as of now for testi
 
 ![Demo of the support bot in a ticket](docs/demo.gif)
 
-The demo shows a greeting, a question hidden in the middle of a long message, and a message with three questions.
+The demo shows a greeting, a question hidden in the middle of a long message, and a message with three questions. Watch the full demo (ticket handover, closing and feedback) on [YouTube](https://youtu.be/k6Fz933vBEI).
 
 ## Features
 
